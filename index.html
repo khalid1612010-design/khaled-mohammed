@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page_title">KHALED MOHAMED | Modern Web Development Studio</title>
+    
+    <!-- Advanced SEO Meta Tags -->
+    <meta name="description" content="KHALED MOHAMED (خالد محمد) - Modern Web Development Studio building fast, scalable, and premium websites. Expert in UI/UX, responsive design, and performance optimization.">
+    <meta name="keywords" content="Khaled mohamed, khaled mohamed, خالد محمد, web development, freelance developer, modern websites, KHALED MOHAMED, front-end, UI/UX, React, JavaScript, HTML, CSS, web design, portfolio, programmer, Egypt, web developer">
+    <meta name="author" content="KHALED MOHAMED">
+    <meta name="robots" content="index, follow"> <!-- Tells Google to index the page and follow links -->
+    <meta name="language" content="English, Arabic">
+    
+    <!-- Canonical URL (Replace with your actual domain when launching) -->
+    <link rel="canonical" href="https://khaledmohamed.com/">
+    
+    <meta name="theme-color" content="#3b82f6">
+
+    <!-- Open Graph / Social Sharing Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="KHALED MOHAMED | Modern Web Development Studio">
+    <meta property="og:description" content="KHALED MOHAMED (خالد محمد) - Modern Web Development Studio building fast, scalable, and premium websites.">
+    <meta property="og:image" content="./og-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KHALED MOHAMED | Modern Web Development Studio">
+    <meta name="twitter:description" content="KHALED MOHAMED (خالد محمد) - Modern Web Development Studio building fast, scalable, and premium websites.">
+    <meta name="twitter:image" content="./og-image.jpg">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/1005/1005141.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark disable-transitions">
+    
+    <!-- Background Animation Elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">KHALED MOHAMED<span class="dot">.</span></span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#services" data-i18n="nav_services">Services</a>
+                <a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a>
+                <a href="#process" data-i18n="nav_process">Process</a>
+            </div>
+
+            <div class="nav-controls">
+                <button id="lang-toggle" class="control-btn" aria-label="Toggle Language">
+                    <i class="fa-solid fa-globe"></i> <span id="current-lang">العربية</span>
+                </button>
+                <button id="theme-toggle" class="control-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#services" data-i18n="nav_services" class="mobile-link">Services</a>
+        <a href="#portfolio" data-i18n="nav_portfolio" class="mobile-link">Portfolio</a>
+        <a href="#process" data-i18n="nav_process" class="mobile-link">Process</a>
+    </div>
+
+    <!-- Main Content for SEO -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <div class="badge" data-i18n="hero_badge">✨ Premium Developer Studio</div>
+                <h1 class="hero-title" data-i18n="hero_title">
+                    Modern Websites Built for <span class="gradient-text">Speed</span>, <span class="gradient-text">Performance</span>, and <span class="gradient-text">Growth</span>
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero_subtitle">
+                    I design and develop fast, modern, and scalable websites for individuals, startups, and businesses.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary" data-i18n="btn_view_work">View My Work</a>
+                    <a href="https://wa.me/201550527744" target="_blank" class="btn btn-secondary" data-i18n="btn_start_project">Contact Us</a>
+                </div>
+            </div>
+            <!-- Optional 3D/Code mockups in hero can be placed here, keeping graphic minimal for now -->
+            <div class="hero-visual reveal fade-left">
+                <div class="glass-card mockup-card">
+                    <div class="mockup-header">
+                        <div class="circle red"></div>
+                        <div class="circle yellow"></div>
+                        <div class="circle green"></div>
+                    </div>
+                    <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">"KHALED MOHAMED"</span>,
+  <span class="property">focus</span>: [<span class="string">"Modern UI"</span>, <span class="string">"Performance"</span>],
+  <span class="property">build</span>() {
+    <span class="keyword">return</span> <span class="string">"High-End Web Experience"</span>;
+  }
+};</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="tech" class="tech-section">
+        <div class="container">
+            <p class="section-subtitle text-center reveal" data-i18n="tech_subtitle">Powered by modern technologies</p>
+            <div class="tech-grid reveal">
+                <div class="tech-item"><i class="fa-brands fa-html5"></i> <span>HTML5</span></div>
+                <div class="tech-item"><i class="fa-brands fa-css3-alt"></i> <span>CSS3</span></div>
+                <div class="tech-item"><i class="fa-brands fa-js"></i> <span>JavaScript</span></div>
+                <div class="tech-item"><i class="fa-brands fa-react"></i> <span>React</span></div>
+                <div class="tech-item"><i class="fa-solid fa-bolt"></i> <span data-i18n="tech_perf">Performance Optimization</span></div>
+                <div class="tech-item"><i class="fa-solid fa-mobile-screen"></i> <span data-i18n="tech_responsive">Responsive Design</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title" data-i18n="services_title">My Services</h2>
+                <p class="section-desc" data-i18n="services_desc">Tailored digital solutions to elevate your online presence.</p>
+            </div>
+            <div class="services-grid">
+                
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <h3 data-i18n="srv_landing_title">Landing Page Development</h3>
+                    <p data-i18n="srv_landing_desc">High-converting landing pages for products and businesses.</p>
+                </div>
+                
+                <div class="service-card glass-card reveal" style="transition-delay: 100ms;">
+                    <div class="service-icon"><i class="fa-solid fa-address-card"></i></div>
+                    <h3 data-i18n="srv_cv_title">Portfolio & CV Websites</h3>
+                    <p data-i18n="srv_cv_desc">Clean personal websites for freelancers and professionals.</p>
+                </div>
+
+                <div class="service-card glass-card reveal" style="transition-delay: 200ms;">
+                    <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+                    <h3 data-i18n="srv_business_title">Business Websites</h3>
+                    <p data-i18n="srv_business_desc">Modern, scalable websites for startups and companies.</p>
+                </div>
+
+                <div class="service-card glass-card reveal" style="transition-delay: 300ms;">
+                    <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3 data-i18n="srv_custom_title">Custom Web Development</h3>
+                    <p data-i18n="srv_custom_desc">Fully customized web applications with unique functionality.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title" data-i18n="portfolio_title">Selected Work</h2>
+                <p class="section-desc" data-i18n="portfolio_desc">A showcase of recent premium web projects.</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                
+                <!-- Project 1 -->
+                <div class="portfolio-card reveal">
+                    <div class="portfolio-img-wrapper">
+                        <!-- Placeholder Gradient for High End Feel -->
+                        <div class="portfolio-placeholder" style="background: linear-gradient(45deg, #111827, #374151);">
+                            <span class="preview-text">Shaimaa CV Portfolio</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Shaimaa CV</h3>
+                        <p data-i18n="proj_shaimaa_desc">A clean, professional multi-lingual resume and portfolio website.</p>
+                        <a href="https://shaimaa-cv.vercel.app/" target="_blank" class="btn btn-outline" data-i18n="btn_live_site">View Live Site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card reveal">
+                    <div class="portfolio-img-wrapper">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(45deg, #0f172a, #1e3a8a);">
+                            <span class="preview-text">Study Plan Sage</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Study Plan</h3>
+                        <p data-i18n="proj_study_desc">An educational platform interface for generating and tracking study plans.</p>
+                        <a href="https://study-plan1-sage.vercel.app/" target="_blank" class="btn btn-outline" data-i18n="btn_live_site">View Live Site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card reveal">
+                    <div class="portfolio-img-wrapper">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(45deg, #064e3b, #10b981);">
+                            <span class="preview-text">El Farra Pharmacy</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>El Farra Pharmacy Identity</h3>
+                        <p data-i18n="proj_pharmacy_desc">Modern brand identity and web presence for a medical pharmacy.</p>
+                        <a href="https://el-farra-pharmacy-identity.vercel.app/" target="_blank" class="btn btn-outline" data-i18n="btn_live_site">View Live Site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card reveal">
+                    <div class="portfolio-img-wrapper">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(45deg, #4c1d95, #8b5cf6);">
+                            <span class="preview-text">Math Mentor</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Math Mentor Portfolio</h3>
+                        <p data-i18n="proj_math_desc">A professional hub for a mathematics educator, featuring resources and contact details.</p>
+                        <a href="https://math-mentor-portfolio.vercel.app/" target="_blank" class="btn btn-outline" data-i18n="btn_live_site">View Live Site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process-section section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title" data-i18n="process_title">How I Work</h2>
+                <p class="section-desc" data-i18n="process_desc">A streamlined, professional development process.</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step reveal">
+                    <div class="step-number">01</div>
+                    <h3 data-i18n="step_1_title">Project Discussion</h3>
+                    <p data-i18n="step_1_desc">Understanding your goals, target audience, and project requirements.</p>
+                </div>
+                <div class="process-step reveal" style="transition-delay: 100ms;">
+                    <div class="step-number">02</div>
+                    <h3 data-i18n="step_2_title">Planning & Structure</h3>
+                    <p data-i18n="step_2_desc">Creating wireframes and establishing the core architecture.</p>
+                </div>
+                <div class="process-step reveal" style="transition-delay: 200ms;">
+                    <div class="step-number">03</div>
+                    <h3 data-i18n="step_3_title">Design & Development</h3>
+                    <p data-i18n="step_3_desc">Crafting the visual identity and writing clean, scalable code.</p>
+                </div>
+                <div class="process-step reveal" style="transition-delay: 300ms;">
+                    <div class="step-number">04</div>
+                    <h3 data-i18n="step_4_title">Testing & Optimization</h3>
+                    <p data-i18n="step_4_desc">Rigorous cross-browser testing and performance optimization.</p>
+                </div>
+                <div class="process-step reveal" style="transition-delay: 400ms;">
+                    <div class="step-number">05</div>
+                    <h3 data-i18n="step_5_title">Final Delivery</h3>
+                    <p data-i18n="step_5_desc">Deploying the project and handing over the final product to you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-section section-padding">
+        <div class="container">
+            <div class="why-grid">
+                <div class="why-content reveal">
+                    <h2 class="section-title" data-i18n="why_title">Why Choose KHALED MOHAMED?</h2>
+                    <p class="section-desc text-left" data-i18n="why_desc">I am committed to delivering excellence. Every line of code is written with purpose, and every design decision is made to maximize user engagement and business growth.</p>
+                    
+                    <ul class="why-list">
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="why_1">Ultra-fast loading speeds</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="why_2">Modern, premium aesthetics</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="why_3">Responsive & accessible on all devices</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="why_4">Clean, maintainable source code</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-text">KHALED MOHAMED<span class="dot">.</span></span>
+                </a>
+                <p data-i18n="footer_slogan">Building Modern High-Performance Websites</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; <span id="year">2026</span> KHALED MOHAMED. <span data-i18n="footer_rights">All Rights Reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/201550527744" class="whatsapp-btn" target="_blank" aria-label="Contact on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

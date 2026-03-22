@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /images/private/
+
+Sitemap: https://khaledmohamed.com/sitemap.xml
